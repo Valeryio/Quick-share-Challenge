@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 60vw;
+    height: 100vh;
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: relative;
+    font-family: Outfit;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+div 
+{
+    
+    border: 1px solid black;
+}
+
+.one, .two, .mobile
+{
+    background-color: hsl(212, 45%, 89%);
+}
+
+body > div:nth-child(1)
+{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    margin: 
+    align-items: center;
+    justify-content: center;
+}
+
+.qr
+{
+    width: 35%;
+    height: 80%;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.qr .code
+{
+    width: 92%;
+    height: 65%;
+    margin: auto;
+    margin-top: 25px;
+    background-size: cover;
+    border-radius: 25px;
+    background-image: url(images/image-qr-code.png);
+}
+
+/*
+
+body > div:nth-child(2)
+{
+
+    width: 40%;
+    height: 45%;
+    margin: 8rem;
+}
+
+body > div:nth-child(3)
+{
+    width: 40%;
+    height: 45%;
+    
+}
+
+body > div:nth-child(4)
+{
+    bottom: 0;
+    position: absolute;
+}
+*/
